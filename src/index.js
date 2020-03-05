@@ -1,12 +1,44 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { render } from 'react-dom';
+import uuid from 'uuid';
+import { createStore } from "redux";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const defaultPhonesReducerState = [];
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+const store = createStore((state = defaultPhonesReducerState, action) => {
+    switch (action.type) {
+        case "ADD_PHONE":
+            return [...state, action.phone];
+        default:
+            return state;
+    }
+});
+
+const addPhone = ({ model = '', brand = '', price = 0 } = {}) => ({
+    type: "ADD_PHONE",
+    phone: {
+        id: uuid(),
+        model,
+        brand,
+        price
+    }
+});
+
+const App = () => {
+    return (
+        <div>
+            <h1>hello</h1>
+        </div>
+    )
+};
+
+store.dispatch(addPhone({model: 'I phone 11', price: 15000000, brand: "Apple"}));
+
+console.log(store.getState());
+
+
+
+render(
+    <App/>,
+    document.getElementById('root')
+);
