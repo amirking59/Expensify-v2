@@ -1,44 +1,27 @@
 import React from 'react';
-import { render } from 'react-dom';
-import uuid from 'uuid';
-import { createStore } from "redux";
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import AppRouter from './routers/AppRouter';
+import configureStore from './store/configureStore';
+import { addExpense } from './actions/expenses';
+import { setTextFilter } from './actions/filters';
+import getVisibleExpenses from './selectors/expenses';
+import './styles/styles.scss';
 
-const defaultPhonesReducerState = [];
+const store = configureStore();
 
-const store = createStore((state = defaultPhonesReducerState, action) => {
-    switch (action.type) {
-        case "ADD_PHONE":
-            return [...state, action.phone];
-        default:
-            return state;
-    }
-});
+store.dispatch(addExpense({ description: 'Water bill', amount: 4500 }));
+store.dispatch(addExpense({ description: 'Gas bill', createdAt: 1000 }));
+store.dispatch(addExpense({ description: 'Rent', amount: 109500 }));
 
-const addPhone = ({ model = '', brand = '', price = 0 } = {}) => ({
-    type: "ADD_PHONE",
-    phone: {
-        id: uuid(),
-        model,
-        brand,
-        price
-    }
-});
+const state = store.getState();
+const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+console.log(visibleExpenses);
 
-const App = () => {
-    return (
-        <div>
-            <h1>hello</h1>
-        </div>
-    )
-};
-
-store.dispatch(addPhone({model: 'I phone 11', price: 15000000, brand: "Apple"}));
-
-console.log(store.getState());
-
-
-
-render(
-    <App/>,
-    document.getElementById('root')
+const jsx = (
+  <Provider store={store}>
+    <AppRouter />
+  </Provider>
 );
+
+ReactDOM.render(jsx, document.getElementById('root'));
