@@ -5,6 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +37,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kng\WebstormProjects\untitled1\src\selectors" />
       <recent name="C:\Users\kng\WebstormProjects\untitled1\scripts" />
     </key>
   </component>
@@ -81,7 +86,13 @@
       <workItem from="1583417301554" duration="771000" />
       <workItem from="1583422404027" duration="4132000" />
       <workItem from="1583433081149" duration="244000" />
-      <workItem from="1583473513671" duration="3064000" />
+      <workItem from="1583473513671" duration="3480000" />
+      <workItem from="1583520797590" duration="472000" />
+      <workItem from="1583536986642" duration="2229000" />
+      <workItem from="1583568682222" duration="1137000" />
+      <workItem from="1583604899725" duration="1474000" />
+      <workItem from="1583612303913" duration="947000" />
+      <workItem from="1583666138405" duration="355000" />
     </task>
     <servers />
   </component>
@@ -97,22 +108,22 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="186" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1583317461706" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1583417975964">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1583538653182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583417975964" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1583417975964">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1583538653182" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1583538653182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583417975964" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1583417975964">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1583538653182" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1583538653182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583417975964" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1583417975964">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1583538653182" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1583538653182">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583417975964" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1583538653182" />
     <state x="392" y="164" key="Vcs.Push.Dialog.v2" timestamp="1583394590190">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
