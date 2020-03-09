@@ -3,12 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1575bab6-5c83-4243-ba2b-de7a836b04e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/expenses.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/selectors/expenses.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/selectors/expenses.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +94,11 @@
       <workItem from="1583568682222" duration="1137000" />
       <workItem from="1583604899725" duration="1474000" />
       <workItem from="1583612303913" duration="947000" />
-      <workItem from="1583666138405" duration="355000" />
+      <workItem from="1583666138405" duration="1945000" />
+      <workItem from="1583738222261" duration="1726000" />
+      <workItem from="1583744862166" duration="1207000" />
+      <workItem from="1583773201944" duration="2406000" />
+      <workItem from="1583783646400" duration="1873000" />
     </task>
     <servers />
   </component>
@@ -100,10 +106,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583474323884">
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583784797041">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1583474323884" />
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1583784797041" />
     <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1583317461706">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -128,5 +134,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583394590190" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583785405486">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1583785405486" />
   </component>
 </project>

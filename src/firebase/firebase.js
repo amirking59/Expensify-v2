@@ -13,6 +13,6 @@ var firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig);
 
-firebase.database().ref().set({
-    name: "Amir"
-});
+const database = firebase.database();
+
+export { firebase, database as default };
