@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import numeral from 'numeral';
 import selectExpenses from '../selectors/expenses';
-import selectExpensesTotal from '../selectors/expenses-total';
+import selectExpensesTotal from '../selectors/total';
 
 export const ExpensesSummary = ({ expenseCount, expensesTotal }) => {
   const expenseWord = expenseCount === 1 ? 'expense' : 'expenses' ;
