@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1575bab6-5c83-4243-ba2b-de7a836b04e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Expensify-v2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +99,7 @@
       <workItem from="1583911260292" duration="542000" />
       <workItem from="1583920673077" duration="1913000" />
       <workItem from="1583925075424" duration="4106000" />
-      <workItem from="1583929770615" duration="1819000" />
+      <workItem from="1583929770615" duration="2747000" />
     </task>
     <servers />
   </component>
