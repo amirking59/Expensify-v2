@@ -1,9 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: $dark-gray;
+  font-family: "Roboto Light", Arial, sans-serif;
   font-size: $m-size;
 }
 

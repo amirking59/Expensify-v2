@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="1575bab6-5c83-4243-ba2b-de7a836b04e8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AddExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AddExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/EditExpensePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/EditExpensePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExpensesSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpensesSummary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/_settings.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +44,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kng\WebstormProjects\untitled1\src\images" />
       <recent name="C:\Users\kng\WebstormProjects\untitled1\src\selectors" />
       <recent name="C:\Users\kng\WebstormProjects\untitled1\scripts" />
     </key>
@@ -99,7 +112,10 @@
       <workItem from="1583911260292" duration="542000" />
       <workItem from="1583920673077" duration="1913000" />
       <workItem from="1583925075424" duration="4106000" />
-      <workItem from="1583929770615" duration="3084000" />
+      <workItem from="1583929770615" duration="3469000" />
+      <workItem from="1583944438826" duration="3019000" />
+      <workItem from="1583993623566" duration="2675000" />
+      <workItem from="1584006230067" duration="5001000" />
     </task>
     <servers />
   </component>
@@ -107,10 +123,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583932839294">
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583944499727">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1583932839294" />
+    <state x="569" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1583944499727" />
     <state x="580" y="186" key="FileChooserDialogImpl" timestamp="1583317461706">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -135,9 +151,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="164" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1583394590190" />
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1583785405486">
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1584009150719">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1583785405486" />
+    <state x="462" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1584009150719" />
   </component>
 </project>
